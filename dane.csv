@@ -1,0 +1,15 @@
+Nr,Miasto,Czas dojazdu samochodem,Liczba ludności,Średnia temperatura w lipcu,Liczba deszczowych dni w lipcu,Zanieczyszczenia powietrza [**],Zanieczyszczenia powietrza
+1,Białystok,5 godzin 6 minut,293413,19.50,10,111,5
+2,Bydgoszcz,1 godzina 58 minut,337666,19.40,9,104,5
+3,Gdańsk,3 godziny 46 minut,486022,18.90,10,114,5
+4,Poznań,57 minut,546859,19.80,9,106,5
+5,Katowice,3 godziny 34 minuty,289162,19.50,11,14,1
+6,Kielce,4 godziny 6 minut,192498,19.40,10,44,2
+7,Kraków,4 godziny 25 minut,800653,19.50,11,7,1
+8,Lublin,4 godziny 45 minut,334681,17.80,9,100,5
+9,Łódź,2 godziny 13 minut,670642,19.50,10,66,3
+10,Opole,2 godziny 39 minut,127839,20.10,10,81,4
+11,Rzeszów,5 godzin 59 minut,198609,19.80,12,73,3
+12,Warszawa,3 godziny 6 minut,1860281,18.00,9,68,3
+13,Wrocław,1 godzina 45 minut,672929,20.10,9,42,2
+14,Zielona Góra,2 godziny 14 minut,140403,20.10,9,107,5
