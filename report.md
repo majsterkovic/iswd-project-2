@@ -22,7 +22,26 @@ Z punktu widzenia decydenta:
 
 Liczba rozważanych wariantów to 14. Taki zbiór został skonstruowany.
 
-#### 5. Jakie są typy poszczególnych kryteriów? Scharakteryzuj je pod kątem:
+**Zbiór danych**:
+| Oznaczenie | Miasto        | Czas dojazdu samochodem | Liczba ludności | Średnia temperatura w lipcu | Liczba deszczowych dni w lipcu | Zanieczyszczenia powietrza |
+|------------|---------------|-------------------------|-----------------|-----------------------------|--------------------------------|-----------------------------|
+| $v_0$      | Białystok     | 306.0                   | 293413          | 19.5                        | 10                             | 5                           |
+| $v_1$      | Bydgoszcz     | 118.0                   | 337666          | 19.4                        | 9                              | 5                           |
+| $v_2$      | Gdańsk        | 226.0                   | 486022          | 18.9                        | 10                             | 5                           |
+| $v_3$      | Poznań        | 57.0                    | 546859          | 19.8                        | 9                              | 5                           |
+| $v_4$      | Katowice      | 214.0                   | 289162          | 19.5                        | 11                             | 1                           |
+| $v_5$      | Kielce        | 246.0                   | 192498          | 19.4                        | 10                             | 2                           |
+| $v_6$      | Kraków        | 265.0                   | 800653          | 19.5                        | 11                             | 1                           |
+| $v_7$      | Lublin        | 285.0                   | 334681          | 17.8                        | 9                              | 5                           |
+| $v_8$      | Łódź          | 133.0                   | 670642          | 19.5                        | 10                             | 3                           |
+| $v_9$      | Opole         | 159.0                   | 127839          | 20.1                        | 10                             | 4                           |
+| $v_{10}$   | Rzeszów       | 359.0                   | 198609          | 19.8                        | 12                             | 3                           |
+| $v_{11}$   | Warszawa      | 186.0                   | 1860281         | 18.0                        | 9                              | 3                           |
+| $v_{12}$   | Wrocław       | 105.0                   | 672929          | 20.1                        | 9                              | 2                           |
+| $v_{13}$   | Zielona Góra  | 134.0                   | 140403          | 20.1                        | 9                              |     5                      |
+
+
+#### 5. Jakie są typy poszczególnych kryteriów?:
 
 |Kryterium|ciągłe/dyskretne|zysk/koszt | osiągane wartości| oznaczenie
 |--|--|--|--|--|
@@ -51,7 +70,18 @@ Wybrane wagi: $[2,2,1,2,3]$.
 
 #### 9. Czy istnieją jakieś dominacje w zbiorze wariantów? Jeśli tak, podaj je.
 
-Brak dominacji w zbiorze.
+$v_1 \Delta v_5$ \,
+$v_1 \Delta v_7$, 
+
+$v_3 \Delta v_0$ \, $v_3 \Delta v_1$ \, $v_3 \Delta v_2$ \, $v_3 \Delta v_4$ \, $v_3 \Delta v_5$ \, $v_3 \Delta v_7$ \, $v_3 \Delta v_{10}$ \,
+
+$v_8 \Delta v_4$ \,
+$v_8 \Delta v_5$ \,
+
+$v_{12} \Delta v_4$ \,
+$v_{12} \Delta v_5$ \,
+
+$v_{13} \Delta v_9$
 
 #### 10. Jak teoretycznie powinien prezentować się najlepszy wariant w Twoim zbiorze danych?
 
