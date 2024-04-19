@@ -1,4 +1,6 @@
-# Zbiór danych
+## Wstęp
+
+## 1 Zbiór danych
 #### 1. Jaka jest domena problemu?
 Domeną problemu jest wybór miasta, które odwiedzimy w wakacje.
 #### 2. Jakie jest źródło danych?
@@ -94,3 +96,26 @@ Najlepszym spośród rozważanych wariantów wydaje się być Poznań ze względ
 #### 12. Spośród rozważanych wariantów, który wydaje się być najsłabszy/ znacząco słabszy od innych i dlaczego?
 
 Najsłabszy wydaje się Rzeszów ze względu na fakt położenia geograficznego - bardzo daleko od Jarocina - osiąga najgorsze wyniki na kryteriach $g_1$ oraz $g_4$.
+
+## 2 Analiza problemu z wykorzystaniem ELECTRE III
+
+#### 1. Zapisz informację preferencyjną podaną na wejście metody.
+#### 2. Podaj ranking końcowy, rangi uzyskane na jego podstawie i ranking medianowy.
+#### 3. Skomentuj otrzymane wyniki, porównując je ze swoimi oczekiwaniami i preferencjami (zapewnionymi
+wcześniej)
+
+## 3 Analiza problemu z wykorzystaniem PROMETHEE I i II
+
+#### 1. Zapisz informację preferencyjną podaną na wejście metody.
+#### 2. Podaj ostateczne wyniki, narysuj ranking całkowity i częściowy.
+
+| *Ranking oparty na przepływach negatywnych* | *Ranking oparty na przepływach pozytywnych* | *Ranking PROMETHEE I* | *Ranking PROMETHEE II* |
+|:------------------:|:------------------:|:--------------:|:--------------:|
+| ![](./negative_flow_rank.gv.svg) | ![](./positive_flow_rank.gv.svg) | ![](./intersect_rank.gv.svg) |![](./accumulated_flow_rank.gv.svg) |
+
+#### 3. Porównaj otrzymane rankingi.
+#### 4. Skomentuj otrzymane wyniki, porównując je ze swoimi oczekiwaniami i preferencjami (zapewnionymi wcześniej)
+
+## 4 Porównanie wyników ELECTRE i PROMETHEE
+Porównaj wyniki otrzymane z obu metod.
+2\
