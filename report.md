@@ -100,16 +100,49 @@ Najsłabszy wydaje się Rzeszów ze względu na fakt położenia geograficznego 
 ## 2 Analiza problemu z wykorzystaniem ELECTRE III
 
 #### 1. Zapisz informację preferencyjną podaną na wejście metody.
+Progi oraz wagi dla każdego kryterium: <br>
+$q_1=30$, $p_1=60$, $w_1=2$, $v_1=240$ <br>
+$q_2=50000$, $p_2=100000$, $w_2=2$, $v_2=500000$<br>
+$q_3=1$, $p_3=3$, $w_3=1$, $v_3=5$ <br>
+$q_4=1$, $p_4=3$, $w_4=2$, $v_4=5$ <br>
+$q_5=0$, $p_5=2$, $w_5=3$, $v_5=4$ <br>
+
+
+Gdzie:
+$q_i$ to próg nierozróżnialności dla kryterium $i$,
+$p_i$ to próg prefernecji dla kryterium $i$,
+$v_i$ to próg veto dla kryterium $i$ a
+$w_i$ to waga dla kryterium $i$.
+
 #### 2. Podaj ranking końcowy, rangi uzyskane na jego podstawie i ranking medianowy.
 
 | *Ranking końcowy* | *Rangi* | *Ranking medianowy* |
 |:------------------:|:------------------:|:--------------:|
 | ![](./final_ranking.gv.svg) | ![](./ranks_ranking.gv.svg) | ![](./median_ranking.gv.svg) |
 #### 3. Skomentuj otrzymane wyniki, porównując je ze swoimi oczekiwaniami i preferencjami (zapewnionymi wcześniej)
+Poznań zgodnie z naszymi oczekiwaniami został wybrany we wszystkich rankingach jako najlepszy wariant. Natomiast Rzeszów, który zakładaliśmy, że będzie najgorszym wyborem, co ciekawe został uznany za lepszą alternatywe dla Kielc. Pozostałe wyniki są w większości zgodne z naszymi oczekiwaniami, trochę dziwić może bardzo wysoki wynik Warszawy, która nie ma najczystszego powietrza, możliwe jednak że bardzo duża liczba ludności odegrała tutaj kluczową rolę.
 
 ## 3 Analiza problemu z wykorzystaniem PROMETHEE I i II
 
 #### 1. Zapisz informację preferencyjną podaną na wejście metody.
+Progi oraz wagi dla każdego kryterium: <br>
+$q_1=30$, $p_1=60$, $w_1=2$ <br>
+$q_2=50000$, $p_2=100000$, $w_2=2$<br>
+$q_3=1$, $p_3=3$, $w_3=1$ <br>
+$q_4=1$, $p_4=3$, $w_4=2$ <br>
+$q_5=0$, $p_5=2$, $w_5=3$ <br>
+
+Gdzie:
+$q_i$ to próg nierozróżnialności dla kryterium $i$,
+$p_i$ to próg prefernecji dla kryterium $i$ a
+$w_i$ to waga dla kryterium $i$.
+
+Dla każdego wariantu wykorzystaliśmy funkcje poziomu zgodną z rysunkiem:
+<div style="text-align:left">
+    <img src="./util.png" alt="Util Function" style="width:400px;">
+</div>
+
+
 #### 2. Podaj ostateczne wyniki, narysuj ranking całkowity i częściowy.
 
 | *Ranking oparty na przepływach negatywnych* | *Ranking oparty na przepływach pozytywnych* | *Ranking PROMETHEE I* | *Ranking PROMETHEE II* |
@@ -118,6 +151,7 @@ Najsłabszy wydaje się Rzeszów ze względu na fakt położenia geograficznego 
 
 #### 3. Porównaj otrzymane rankingi.
 #### 4. Skomentuj otrzymane wyniki, porównując je ze swoimi oczekiwaniami i preferencjami (zapewnionymi wcześniej)
+Zgodnie z naszymi oczekiwaniami Poznań okazał się najbardziej preferowanym wyborem a Rzeszów nie wydaje się najlepszym wyborem na wakacje.
 
 ## 4 Porównanie wyników ELECTRE i PROMETHEE
 Porównaj wyniki otrzymane z obu metod.
