@@ -101,8 +101,11 @@ Najsłabszy wydaje się Rzeszów ze względu na fakt położenia geograficznego 
 
 #### 1. Zapisz informację preferencyjną podaną na wejście metody.
 #### 2. Podaj ranking końcowy, rangi uzyskane na jego podstawie i ranking medianowy.
-#### 3. Skomentuj otrzymane wyniki, porównując je ze swoimi oczekiwaniami i preferencjami (zapewnionymi
-wcześniej)
+
+| *Ranking końcowy* | *Rangi* | *Ranking medianowy* |
+|:------------------:|:------------------:|:--------------:|
+| ![](./final_ranking.gv.svg) | ![](./ranks_ranking.gv.svg) | ![](./median_ranking.gv.svg) |
+#### 3. Skomentuj otrzymane wyniki, porównując je ze swoimi oczekiwaniami i preferencjami (zapewnionymi wcześniej)
 
 ## 3 Analiza problemu z wykorzystaniem PROMETHEE I i II
 
@@ -118,4 +121,3 @@ wcześniej)
 
 ## 4 Porównanie wyników ELECTRE i PROMETHEE
 Porównaj wyniki otrzymane z obu metod.
-2\

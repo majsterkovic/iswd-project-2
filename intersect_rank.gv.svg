@@ -8,89 +8,95 @@
  viewBox="0.00 0.00 242.12 692.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 688)">
 <polygon fill="white" stroke="none" points="-4,4 -4,-688 238.12,-688 238.12,4 -4,4"/>
-<!-- Białystok -->
-<g id="node1" class="node">
-<title>Białystok</title>
-<ellipse fill="none" stroke="black" cx="94.07" cy="-234" rx="45.08" ry="18"/>
-<text text-anchor="middle" x="94.07" y="-228.57" font-family="Times New Roman,serif" font-size="14.00">Białystok</text>
-</g>
-<!-- Kraków -->
-<g id="node7" class="node">
-<title>Kraków</title>
-<ellipse fill="none" stroke="black" cx="130.07" cy="-162" rx="40.09" ry="18"/>
-<text text-anchor="middle" x="130.07" y="-156.57" font-family="Times New Roman,serif" font-size="14.00">Kraków</text>
-</g>
-<!-- Białystok&#45;&gt;Kraków -->
-<g id="edge1" class="edge">
-<title>Białystok&#45;&gt;Kraków</title>
-<path fill="none" stroke="black" d="M102.78,-216.05C106.81,-208.23 111.68,-198.75 116.19,-189.98"/>
-<polygon fill="black" stroke="black" points="119.28,-191.63 120.74,-181.13 113.06,-188.43 119.28,-191.63"/>
-</g>
-<!-- Bydgoszcz -->
-<g id="node2" class="node">
-<title>Bydgoszcz</title>
-<ellipse fill="none" stroke="black" cx="112.07" cy="-594" rx="52.06" ry="18"/>
-<text text-anchor="middle" x="112.07" y="-588.58" font-family="Times New Roman,serif" font-size="14.00">Bydgoszcz</text>
-</g>
 <!-- Warszawa -->
-<g id="node12" class="node">
+<g id="node1" class="node">
 <title>Warszawa</title>
 <ellipse fill="none" stroke="black" cx="49.07" cy="-522" rx="49.07" ry="18"/>
 <text text-anchor="middle" x="49.07" y="-516.58" font-family="Times New Roman,serif" font-size="14.00">Warszawa</text>
 </g>
-<!-- Bydgoszcz&#45;&gt;Warszawa -->
-<g id="edge2" class="edge">
-<title>Bydgoszcz&#45;&gt;Warszawa</title>
-<path fill="none" stroke="black" d="M97.14,-576.41C89.45,-567.87 79.92,-557.28 71.38,-547.79"/>
-<polygon fill="black" stroke="black" points="74.19,-545.69 64.9,-540.59 68.99,-550.37 74.19,-545.69"/>
-</g>
-<!-- Zielona Góra -->
-<g id="node14" class="node">
-<title>Zielona Góra</title>
-<ellipse fill="none" stroke="black" cx="175.07" cy="-522" rx="59.05" ry="18"/>
-<text text-anchor="middle" x="175.07" y="-516.58" font-family="Times New Roman,serif" font-size="14.00">Zielona Góra</text>
-</g>
-<!-- Bydgoszcz&#45;&gt;Zielona Góra -->
-<g id="edge3" class="edge">
-<title>Bydgoszcz&#45;&gt;Zielona Góra</title>
-<path fill="none" stroke="black" d="M127,-576.41C134.69,-567.87 144.22,-557.28 152.76,-547.79"/>
-<polygon fill="black" stroke="black" points="155.14,-550.37 159.23,-540.59 149.94,-545.69 155.14,-550.37"/>
-</g>
 <!-- Gdańsk -->
-<g id="node3" class="node">
+<g id="node7" class="node">
 <title>Gdańsk</title>
 <ellipse fill="none" stroke="black" cx="87.07" cy="-378" rx="39.59" ry="18"/>
 <text text-anchor="middle" x="87.07" y="-372.57" font-family="Times New Roman,serif" font-size="14.00">Gdańsk</text>
 </g>
-<!-- Lublin -->
-<g id="node8" class="node">
-<title>Lublin</title>
-<ellipse fill="none" stroke="black" cx="88.07" cy="-306" rx="34.1" ry="18"/>
-<text text-anchor="middle" x="88.07" y="-300.57" font-family="Times New Roman,serif" font-size="14.00">Lublin</text>
+<!-- Warszawa&#45;&gt;Gdańsk -->
+<g id="edge1" class="edge">
+<title>Warszawa&#45;&gt;Gdańsk</title>
+<path fill="none" stroke="black" d="M53.73,-503.59C60.17,-479.5 71.88,-435.75 79.57,-407.03"/>
+<polygon fill="black" stroke="black" points="82.89,-408.14 82.1,-397.57 76.13,-406.33 82.89,-408.14"/>
 </g>
-<!-- Gdańsk&#45;&gt;Lublin -->
+<!-- Kielce -->
+<g id="node2" class="node">
+<title>Kielce</title>
+<ellipse fill="none" stroke="black" cx="82.07" cy="-90" rx="33.6" ry="18"/>
+<text text-anchor="middle" x="82.07" y="-84.58" font-family="Times New Roman,serif" font-size="14.00">Kielce</text>
+</g>
+<!-- Rzeszów -->
+<g id="node6" class="node">
+<title>Rzeszów</title>
+<ellipse fill="none" stroke="black" cx="130.07" cy="-18" rx="44.58" ry="18"/>
+<text text-anchor="middle" x="130.07" y="-12.57" font-family="Times New Roman,serif" font-size="14.00">Rzeszów</text>
+</g>
+<!-- Kielce&#45;&gt;Rzeszów -->
+<g id="edge2" class="edge">
+<title>Kielce&#45;&gt;Rzeszów</title>
+<path fill="none" stroke="black" d="M93.2,-72.76C98.87,-64.49 105.91,-54.23 112.31,-44.9"/>
+<polygon fill="black" stroke="black" points="115.04,-47.11 117.81,-36.88 109.26,-43.15 115.04,-47.11"/>
+</g>
+<!-- Kraków -->
+<g id="node3" class="node">
+<title>Kraków</title>
+<ellipse fill="none" stroke="black" cx="130.07" cy="-162" rx="40.09" ry="18"/>
+<text text-anchor="middle" x="130.07" y="-156.57" font-family="Times New Roman,serif" font-size="14.00">Kraków</text>
+</g>
+<!-- Kraków&#45;&gt;Kielce -->
+<g id="edge3" class="edge">
+<title>Kraków&#45;&gt;Kielce</title>
+<path fill="none" stroke="black" d="M118.69,-144.41C112.93,-136.01 105.81,-125.63 99.39,-116.26"/>
+<polygon fill="black" stroke="black" points="102.43,-114.5 93.89,-108.24 96.66,-118.46 102.43,-114.5"/>
+</g>
+<!-- Katowice -->
+<g id="node13" class="node">
+<title>Katowice</title>
+<ellipse fill="none" stroke="black" cx="179.07" cy="-90" rx="45.57" ry="18"/>
+<text text-anchor="middle" x="179.07" y="-84.58" font-family="Times New Roman,serif" font-size="14.00">Katowice</text>
+</g>
+<!-- Kraków&#45;&gt;Katowice -->
 <g id="edge4" class="edge">
-<title>Gdańsk&#45;&gt;Lublin</title>
-<path fill="none" stroke="black" d="M87.32,-359.7C87.42,-352.41 87.54,-343.73 87.66,-335.54"/>
-<polygon fill="black" stroke="black" points="91.16,-335.67 87.8,-325.62 84.16,-335.57 91.16,-335.67"/>
+<title>Kraków&#45;&gt;Katowice</title>
+<path fill="none" stroke="black" d="M141.68,-144.41C147.48,-136.13 154.62,-125.92 161.1,-116.66"/>
+<polygon fill="black" stroke="black" points="163.8,-118.91 166.67,-108.71 158.07,-114.9 163.8,-118.91"/>
 </g>
-<!-- Opole -->
-<g id="node10" class="node">
-<title>Opole</title>
-<ellipse fill="none" stroke="black" cx="174.07" cy="-306" rx="33.6" ry="18"/>
-<text text-anchor="middle" x="174.07" y="-300.57" font-family="Times New Roman,serif" font-size="14.00">Opole</text>
+<!-- Wrocław -->
+<g id="node4" class="node">
+<title>Wrocław</title>
+<ellipse fill="none" stroke="black" cx="175.07" cy="-450" rx="44.58" ry="18"/>
+<text text-anchor="middle" x="175.07" y="-444.57" font-family="Times New Roman,serif" font-size="14.00">Wrocław</text>
 </g>
-<!-- Gdańsk&#45;&gt;Opole -->
+<!-- Łódź -->
+<g id="node12" class="node">
+<title>Łódź</title>
+<ellipse fill="none" stroke="black" cx="175.07" cy="-378" rx="30.61" ry="18"/>
+<text text-anchor="middle" x="175.07" y="-372.57" font-family="Times New Roman,serif" font-size="14.00">Łódź</text>
+</g>
+<!-- Wrocław&#45;&gt;Łódź -->
 <g id="edge5" class="edge">
-<title>Gdańsk&#45;&gt;Opole</title>
-<path fill="none" stroke="black" d="M105.95,-361.81C118.05,-352.08 133.94,-339.29 147.33,-328.52"/>
-<polygon fill="black" stroke="black" points="149.34,-331.39 154.94,-322.39 144.95,-325.93 149.34,-331.39"/>
+<title>Wrocław&#45;&gt;Łódź</title>
+<path fill="none" stroke="black" d="M175.07,-431.7C175.07,-424.41 175.07,-415.73 175.07,-407.54"/>
+<polygon fill="black" stroke="black" points="178.57,-407.62 175.07,-397.62 171.57,-407.62 178.57,-407.62"/>
 </g>
 <!-- Poznań -->
-<g id="node4" class="node">
+<g id="node5" class="node">
 <title>Poznań</title>
 <ellipse fill="none" stroke="black" cx="112.07" cy="-666" rx="38.09" ry="18"/>
 <text text-anchor="middle" x="112.07" y="-660.58" font-family="Times New Roman,serif" font-size="14.00">Poznań</text>
+</g>
+<!-- Bydgoszcz -->
+<g id="node10" class="node">
+<title>Bydgoszcz</title>
+<ellipse fill="none" stroke="black" cx="112.07" cy="-594" rx="52.06" ry="18"/>
+<text text-anchor="middle" x="112.07" y="-588.58" font-family="Times New Roman,serif" font-size="14.00">Bydgoszcz</text>
 </g>
 <!-- Poznań&#45;&gt;Bydgoszcz -->
 <g id="edge6" class="edge">
@@ -98,107 +104,101 @@
 <path fill="none" stroke="black" d="M112.07,-647.7C112.07,-640.41 112.07,-631.73 112.07,-623.54"/>
 <polygon fill="black" stroke="black" points="115.57,-623.62 112.07,-613.62 108.57,-623.62 115.57,-623.62"/>
 </g>
-<!-- Katowice -->
-<g id="node5" class="node">
-<title>Katowice</title>
-<ellipse fill="none" stroke="black" cx="82.07" cy="-90" rx="45.57" ry="18"/>
-<text text-anchor="middle" x="82.07" y="-84.58" font-family="Times New Roman,serif" font-size="14.00">Katowice</text>
+<!-- Lublin -->
+<g id="node8" class="node">
+<title>Lublin</title>
+<ellipse fill="none" stroke="black" cx="174.07" cy="-306" rx="34.1" ry="18"/>
+<text text-anchor="middle" x="174.07" y="-300.57" font-family="Times New Roman,serif" font-size="14.00">Lublin</text>
 </g>
-<!-- Rzeszów -->
-<g id="node11" class="node">
-<title>Rzeszów</title>
-<ellipse fill="none" stroke="black" cx="130.07" cy="-18" rx="44.58" ry="18"/>
-<text text-anchor="middle" x="130.07" y="-12.57" font-family="Times New Roman,serif" font-size="14.00">Rzeszów</text>
-</g>
-<!-- Katowice&#45;&gt;Rzeszów -->
+<!-- Gdańsk&#45;&gt;Lublin -->
 <g id="edge7" class="edge">
-<title>Katowice&#45;&gt;Rzeszów</title>
-<path fill="none" stroke="black" d="M93.44,-72.41C99.06,-64.22 105.97,-54.14 112.27,-44.95"/>
-<polygon fill="black" stroke="black" points="115.15,-46.94 117.92,-36.72 109.38,-42.99 115.15,-46.94"/>
+<title>Gdańsk&#45;&gt;Lublin</title>
+<path fill="none" stroke="black" d="M105.95,-361.81C117.96,-352.14 133.72,-339.46 147.06,-328.73"/>
+<polygon fill="black" stroke="black" points="149.05,-331.62 154.64,-322.63 144.66,-326.17 149.05,-331.62"/>
 </g>
-<!-- Kielce -->
-<g id="node6" class="node">
-<title>Kielce</title>
-<ellipse fill="none" stroke="black" cx="179.07" cy="-90" rx="33.6" ry="18"/>
-<text text-anchor="middle" x="179.07" y="-84.58" font-family="Times New Roman,serif" font-size="14.00">Kielce</text>
+<!-- Opole -->
+<g id="node9" class="node">
+<title>Opole</title>
+<ellipse fill="none" stroke="black" cx="88.07" cy="-306" rx="33.6" ry="18"/>
+<text text-anchor="middle" x="88.07" y="-300.57" font-family="Times New Roman,serif" font-size="14.00">Opole</text>
 </g>
-<!-- Kielce&#45;&gt;Rzeszów -->
+<!-- Gdańsk&#45;&gt;Opole -->
 <g id="edge8" class="edge">
-<title>Kielce&#45;&gt;Rzeszów</title>
-<path fill="none" stroke="black" d="M167.7,-72.76C161.91,-64.49 154.73,-54.23 148.2,-44.9"/>
-<polygon fill="black" stroke="black" points="151.18,-43.06 142.58,-36.87 145.45,-47.07 151.18,-43.06"/>
+<title>Gdańsk&#45;&gt;Opole</title>
+<path fill="none" stroke="black" d="M87.32,-359.7C87.42,-352.41 87.54,-343.73 87.66,-335.54"/>
+<polygon fill="black" stroke="black" points="91.16,-335.67 87.8,-325.62 84.16,-335.57 91.16,-335.67"/>
 </g>
-<!-- Kraków&#45;&gt;Katowice -->
-<g id="edge9" class="edge">
-<title>Kraków&#45;&gt;Katowice</title>
-<path fill="none" stroke="black" d="M118.69,-144.41C113.07,-136.22 106.16,-126.14 99.87,-116.95"/>
-<polygon fill="black" stroke="black" points="102.76,-114.99 94.22,-108.72 96.99,-118.94 102.76,-114.99"/>
-</g>
-<!-- Kraków&#45;&gt;Kielce -->
-<g id="edge10" class="edge">
-<title>Kraków&#45;&gt;Kielce</title>
-<path fill="none" stroke="black" d="M141.68,-144.41C147.56,-136.01 154.83,-125.63 161.39,-116.26"/>
-<polygon fill="black" stroke="black" points="164.14,-118.43 167.01,-108.23 158.41,-114.41 164.14,-118.43"/>
+<!-- Białystok -->
+<g id="node14" class="node">
+<title>Białystok</title>
+<ellipse fill="none" stroke="black" cx="170.07" cy="-234" rx="45.08" ry="18"/>
+<text text-anchor="middle" x="170.07" y="-228.57" font-family="Times New Roman,serif" font-size="14.00">Białystok</text>
 </g>
 <!-- Lublin&#45;&gt;Białystok -->
-<g id="edge11" class="edge">
+<g id="edge9" class="edge">
 <title>Lublin&#45;&gt;Białystok</title>
-<path fill="none" stroke="black" d="M89.55,-287.7C90.18,-280.41 90.92,-271.73 91.62,-263.54"/>
-<polygon fill="black" stroke="black" points="95.11,-263.87 92.47,-253.61 88.13,-263.28 95.11,-263.87"/>
-</g>
-<!-- Łódź -->
-<g id="node9" class="node">
-<title>Łódź</title>
-<ellipse fill="none" stroke="black" cx="175.07" cy="-378" rx="30.61" ry="18"/>
-<text text-anchor="middle" x="175.07" y="-372.57" font-family="Times New Roman,serif" font-size="14.00">Łódź</text>
-</g>
-<!-- Łódź&#45;&gt;Lublin -->
-<g id="edge12" class="edge">
-<title>Łódź&#45;&gt;Lublin</title>
-<path fill="none" stroke="black" d="M157.46,-362.83C145.24,-353 128.74,-339.72 114.89,-328.58"/>
-<polygon fill="black" stroke="black" points="117.41,-326.12 107.43,-322.58 113.02,-331.57 117.41,-326.12"/>
-</g>
-<!-- Łódź&#45;&gt;Opole -->
-<g id="edge13" class="edge">
-<title>Łódź&#45;&gt;Opole</title>
-<path fill="none" stroke="black" d="M174.82,-359.7C174.72,-352.41 174.59,-343.73 174.48,-335.54"/>
-<polygon fill="black" stroke="black" points="177.98,-335.57 174.33,-325.62 170.98,-335.67 177.98,-335.57"/>
+<path fill="none" stroke="black" d="M173.08,-287.7C172.66,-280.41 172.17,-271.73 171.7,-263.54"/>
+<polygon fill="black" stroke="black" points="175.2,-263.4 171.13,-253.62 168.21,-263.8 175.2,-263.4"/>
 </g>
 <!-- Opole&#45;&gt;Kraków -->
-<g id="edge14" class="edge">
+<g id="edge10" class="edge">
 <title>Opole&#45;&gt;Kraków</title>
-<path fill="none" stroke="black" d="M169.3,-287.87C164.25,-269.9 155.92,-240.87 148.07,-216 145.48,-207.81 142.54,-198.96 139.79,-190.88"/>
-<polygon fill="black" stroke="black" points="143.14,-189.88 136.58,-181.56 136.52,-192.15 143.14,-189.88"/>
+<path fill="none" stroke="black" d="M93.13,-287.87C100.23,-263.88 113.21,-219.99 121.74,-191.16"/>
+<polygon fill="black" stroke="black" points="125.07,-192.22 124.55,-181.64 118.36,-190.24 125.07,-192.22"/>
 </g>
-<!-- Warszawa&#45;&gt;Gdańsk -->
-<g id="edge15" class="edge">
-<title>Warszawa&#45;&gt;Gdańsk</title>
-<path fill="none" stroke="black" d="M53.73,-503.59C60.17,-479.5 71.88,-435.75 79.57,-407.03"/>
-<polygon fill="black" stroke="black" points="82.89,-408.14 82.1,-397.57 76.13,-406.33 82.89,-408.14"/>
+<!-- Bydgoszcz&#45;&gt;Warszawa -->
+<g id="edge11" class="edge">
+<title>Bydgoszcz&#45;&gt;Warszawa</title>
+<path fill="none" stroke="black" d="M97.14,-576.41C89.45,-567.87 79.92,-557.28 71.38,-547.79"/>
+<polygon fill="black" stroke="black" points="74.19,-545.69 64.9,-540.59 68.99,-550.37 74.19,-545.69"/>
 </g>
-<!-- Wrocław -->
-<g id="node13" class="node">
-<title>Wrocław</title>
-<ellipse fill="none" stroke="black" cx="175.07" cy="-450" rx="44.58" ry="18"/>
-<text text-anchor="middle" x="175.07" y="-444.57" font-family="Times New Roman,serif" font-size="14.00">Wrocław</text>
+<!-- Zielona Góra -->
+<g id="node11" class="node">
+<title>Zielona Góra</title>
+<ellipse fill="none" stroke="black" cx="175.07" cy="-522" rx="59.05" ry="18"/>
+<text text-anchor="middle" x="175.07" y="-516.58" font-family="Times New Roman,serif" font-size="14.00">Zielona Góra</text>
 </g>
-<!-- Wrocław&#45;&gt;Łódź -->
-<g id="edge16" class="edge">
-<title>Wrocław&#45;&gt;Łódź</title>
-<path fill="none" stroke="black" d="M175.07,-431.7C175.07,-424.41 175.07,-415.73 175.07,-407.54"/>
-<polygon fill="black" stroke="black" points="178.57,-407.62 175.07,-397.62 171.57,-407.62 178.57,-407.62"/>
+<!-- Bydgoszcz&#45;&gt;Zielona Góra -->
+<g id="edge12" class="edge">
+<title>Bydgoszcz&#45;&gt;Zielona Góra</title>
+<path fill="none" stroke="black" d="M127,-576.41C134.69,-567.87 144.22,-557.28 152.76,-547.79"/>
+<polygon fill="black" stroke="black" points="155.14,-550.37 159.23,-540.59 149.94,-545.69 155.14,-550.37"/>
+</g>
+<!-- Zielona Góra&#45;&gt;Wrocław -->
+<g id="edge13" class="edge">
+<title>Zielona Góra&#45;&gt;Wrocław</title>
+<path fill="none" stroke="black" d="M175.07,-503.7C175.07,-496.41 175.07,-487.73 175.07,-479.54"/>
+<polygon fill="black" stroke="black" points="178.57,-479.62 175.07,-469.62 171.57,-479.62 178.57,-479.62"/>
 </g>
 <!-- Zielona Góra&#45;&gt;Gdańsk -->
-<g id="edge17" class="edge">
+<g id="edge14" class="edge">
 <title>Zielona Góra&#45;&gt;Gdańsk</title>
 <path fill="none" stroke="black" d="M154.71,-504.82C143.57,-495.11 130.21,-481.96 121.07,-468 108.74,-449.18 99.92,-425.24 94.35,-406.93"/>
 <polygon fill="black" stroke="black" points="97.78,-406.19 91.65,-397.54 91.05,-408.12 97.78,-406.19"/>
 </g>
-<!-- Zielona Góra&#45;&gt;Wrocław -->
+<!-- Łódź&#45;&gt;Lublin -->
+<g id="edge15" class="edge">
+<title>Łódź&#45;&gt;Lublin</title>
+<path fill="none" stroke="black" d="M174.82,-359.7C174.72,-352.41 174.59,-343.73 174.48,-335.54"/>
+<polygon fill="black" stroke="black" points="177.98,-335.57 174.33,-325.62 170.98,-335.67 177.98,-335.57"/>
+</g>
+<!-- Łódź&#45;&gt;Opole -->
+<g id="edge16" class="edge">
+<title>Łódź&#45;&gt;Opole</title>
+<path fill="none" stroke="black" d="M157.46,-362.83C145.24,-353 128.74,-339.72 114.89,-328.58"/>
+<polygon fill="black" stroke="black" points="117.41,-326.12 107.43,-322.58 113.02,-331.57 117.41,-326.12"/>
+</g>
+<!-- Katowice&#45;&gt;Rzeszów -->
+<g id="edge17" class="edge">
+<title>Katowice&#45;&gt;Rzeszów</title>
+<path fill="none" stroke="black" d="M167.46,-72.41C161.66,-64.13 154.52,-53.92 148.03,-44.66"/>
+<polygon fill="black" stroke="black" points="151.07,-42.9 142.46,-36.71 145.33,-46.91 151.07,-42.9"/>
+</g>
+<!-- Białystok&#45;&gt;Kraków -->
 <g id="edge18" class="edge">
-<title>Zielona Góra&#45;&gt;Wrocław</title>
-<path fill="none" stroke="black" d="M175.07,-503.7C175.07,-496.41 175.07,-487.73 175.07,-479.54"/>
-<polygon fill="black" stroke="black" points="178.57,-479.62 175.07,-469.62 171.57,-479.62 178.57,-479.62"/>
+<title>Białystok&#45;&gt;Kraków</title>
+<path fill="none" stroke="black" d="M160.39,-216.05C155.86,-208.14 150.38,-198.54 145.32,-189.69"/>
+<polygon fill="black" stroke="black" points="148.41,-188.05 140.41,-181.1 142.34,-191.52 148.41,-188.05"/>
 </g>
 </g>
 </svg>
